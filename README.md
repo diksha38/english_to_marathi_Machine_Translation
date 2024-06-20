@@ -1,3 +1,5 @@
+# This code implements a sequence-to-sequence model for English to Marathi translation using LSTM layers, focusing on data preprocessing, model architecture, training, and inference.
+
 1. Imports and Setup: Libraries are imported, data is loaded, cleaned, split into English and Marathi sentences, and preprocessed (lowercasing, removing punctuation and digits).
 
 2. Tokenization and Padding: English and Marathi sentences are tokenized using Keras Tokenizer, dictionaries for word-to-index and index-to-word mappings are created, and sequences are padded to ensure uniform length.
@@ -12,4 +14,4 @@
 
 7. Example Usage: An example sentence is provided to demonstrate the model's translation capability from English to Marathi.
 
-This code implements a sequence-to-sequence model for English to Marathi translation using LSTM layers, focusing on data preprocessing, model architecture, training, and inference.
+
